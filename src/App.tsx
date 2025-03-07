@@ -28,6 +28,7 @@ import {
 } from 'lucide-react';
 
 
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -68,7 +69,7 @@ function App() {
             </a>
           </div>
           <a 
-            href="images/JavierColladoCV.pdf" 
+            href="/JCollado-Portfolio/images/JavierColladoCV.pdf" 
             download= "JavierColladoCV.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -276,73 +277,73 @@ function App() {
               title="Degrees and Post Graduate Work"
               issuer=""
               date="Bachelor of Science & Post Grad Certificate"
-              image="images/diploma.jpg"
+              image="/JCollado-Portfolio/images/diploma.jpg"
               certificates={[
-                { name: "Associate of Science Degree", pdfPath: "images/degree/Asdiploma.pdf" },
-                { name: "Bachelor of Science Degree", pdfPath: "images/degree/Bachelor_Degree.pdf" },
-                { name: "Post Graduate Certificate", pdfPath: "images/degree/UCSD_DataScienceCert.pdf" }
+                { name: "Associate of Science Degree", pdfPath: "/JCollado-Portfolio/images/degree/Asdiploma.pdf" },
+                { name: "Bachelor of Science Degree", pdfPath: "/JCollado-Portfolio/images/degree/Bachelor_Degree.pdf" },
+                { name: "Post Graduate Certificate", pdfPath: "/JCollado-Portfolio/images/degree/UCSD_DataScienceCert.pdf" }
               ]}
             />
             <CertificateCard 
               title="Data Management"
               issuer=""
               date="SQL, Cloud"
-              image="images/datamanagement.jpg"
+              image="/JCollado-Portfolio/images/datamanagement.jpg"
               certificates={[
-                { name: "Oracle Certified Foundations Associate", pdfPath: "images/datamanagement/OCIFoundationCertificate.pdf" },
-                { name: "SQL for Data Science", pdfPath: "images/datamanagement/UCDavisSQL.pdf" }
+                { name: "Oracle Certified Foundations Associate", pdfPath: "/JCollado-Portfolio/images/datamanagement/OCIFoundationCertificate.pdf" },
+                { name: "SQL for Data Science", pdfPath: "/JCollado-Portfolio/images/datamanagement/UCDavisSQL.pdf" }
               ]}
             />
             <CertificateCard 
               title="Data Analytics"
               issuer=""
               date="Data Analytics, Data visulization, Statistics"
-              image="images/dataanalytics.jpg"
+              image="/JCollado-Portfolio/images/dataanalytics.jpg"
               certificates={[
-                { name: "Google Data Analytics", pdfPath: "images/dataanalytics/GoogleDataAnalytics.pdf" },
-                { name: "Data Visualization with Tableau", pdfPath: "images/dataanalytics/UCDavisFullDataVisualizationwithTableau.pdf" },
-                { name: "Creating Dashboards and Storytelling with Tableau", pdfPath: "images/dataanalytics/UCDavisCreatingDashboardsandStorytellingwithTableau.pdf" },
-                { name: "Essential Design Principles for Tableau", pdfPath: "images/dataanalytics/UCDavisEsstentialDesignPrinciplesforTableau.pdf" },
-                { name: "Fundamentals of Visualization with Tableau", pdfPath: "images/dataanalytics/UCDavisFundamentalsofVisualizationwithTableau.pdf" },
-                { name: "Visual Analytics with Tableau", pdfPath: "images/dataanalytics/UCDavisVisualAnalyticsWithTableau.pdf" }
+                { name: "Google Data Analytics", pdfPath: "/JCollado-Portfolio/images/dataanalytics/GoogleDataAnalytics.pdf" },
+                { name: "Data Visualization with Tableau", pdfPath: "/JCollado-Portfolio/images/dataanalytics/UCDavisFullDataVisualizationwithTableau.pdf" },
+                { name: "Creating Dashboards and Storytelling with Tableau", pdfPath: "/JCollado-Portfolio/images/dataanalytics/UCDavisCreatingDashboardsandStorytellingwithTableau.pdf" },
+                { name: "Essential Design Principles for Tableau", pdfPath: "/JCollado-Portfolio/images/dataanalytics/UCDavisEsstentialDesignPrinciplesforTableau.pdf" },
+                { name: "Fundamentals of Visualization with Tableau", pdfPath: "/JCollado-Portfolio/images/dataanalytics/UCDavisFundamentalsofVisualizationwithTableau.pdf" },
+                { name: "Visual Analytics with Tableau", pdfPath: "/JCollado-Portfolio/images/dataanalytics/UCDavisVisualAnalyticsWithTableau.pdf" }
               ]}
             />
             <CertificateCard 
               title="Machine Learning"
               issuer=""
               date="Cloud, Big Data, Data Modeling"
-              image="images/machinelearning.jpg"
+              image="/JCollado-Portfolio/images/machinelearning.jpg"
               certificates={[
-                { name: "Google CLoud and Big Data and Machine Learning Fundamentals", pdfPath: "images/machinelearning/GoogleCloudBigDataandMachineLearningFundamentals.pdf" },
-                { name: "Fundamentals of Quantitative Modeling", pdfPath: "images/machinelearning/StanfordSupervisedMachineLearning_RegressionandClassification.pdf" },
-                { name: "Supervised Machine Learning: Regression and Classification", pdfPath: "images/machinelearning/UPennFundamentalsofQuantitativeModeling.pdf" }
+                { name: "Google CLoud and Big Data and Machine Learning Fundamentals", pdfPath: "/JCollado-Portfolio/images/machinelearning/GoogleCloudBigDataandMachineLearningFundamentals.pdf" },
+                { name: "Fundamentals of Quantitative Modeling", pdfPath: "/JCollado-Portfolio/images/machinelearning/StanfordSupervisedMachineLearning_RegressionandClassification.pdf" },
+                { name: "Supervised Machine Learning: Regression and Classification", pdfPath: "/JCollado-Portfolio/images/machinelearning/UPennFundamentalsofQuantitativeModeling.pdf" }
               ]}
             />
             <CertificateCard  
               title="Public Health"
               issuer=""
               date="Epidemology, FEMA, WHO"
-              image="images/publichealth.jpg"
+              image="/JCollado-Portfolio/images/publichealth.jpg"
               certificates={[
-                { name: "Infection Prevention and Control for Novel Coronavirus", pdfPath: "images/publichealth/COVID-19-IPC-EN_ConfirmationOfParticipation.pdf" },
-                { name: "Data and Health Indicators in Public Health Practice", pdfPath: "images/publichealth/DataandHealthIndicatorsinPublicHealthPracticeJohnsHopkins.pdf" },
-                { name: "Epidemiology in Public Health Practice", pdfPath: "images/publichealth/EpidemiologyinPublicHealthPracticeJohnsHopkins.pdf" },
-                { name: "Essential Epidemiologic Tools for Public Health Practice", pdfPath: "images/publichealth/EssentialEpidemiologicToolsforPublicHealthJohnsHopkins.pdf" },
-                { name: "Health Communication", pdfPath: "images/publichealth/healthcommunication.pdf" },
-                { name: "Outbreaks and Epidemics", pdfPath: "images/publichealth/OutbreaksandEpidemicsJonhsHopkins.pdf" },
-                { name: "Public Health 101", pdfPath: "images/publichealth/public-health-101.pdf" },
-                { name: "Surveillance Systems: Analysis, Dissemination, and Special Systems", pdfPath: "images/publichealth/SurveillancesystemsAnalysisdisseminationandspecialsystems.pdf" },
-                { name: "Surveillance Systems: The Building Blocks", pdfPath: "images/publichealth/SurveillanceSystemsThebuildingBlocksJohnsHopkins.pdf" }
+                { name: "Infection Prevention and Control for Novel Coronavirus", pdfPath: "/JCollado-Portfolio/images/publichealth/COVID-19-IPC-EN_ConfirmationOfParticipation.pdf" },
+                { name: "Data and Health Indicators in Public Health Practice", pdfPath: "/JCollado-Portfolio/images/publichealth/DataandHealthIndicatorsinPublicHealthPracticeJohnsHopkins.pdf" },
+                { name: "Epidemiology in Public Health Practice", pdfPath: "/JCollado-Portfolio/images/publichealth/EpidemiologyinPublicHealthPracticeJohnsHopkins.pdf" },
+                { name: "Essential Epidemiologic Tools for Public Health Practice", pdfPath: "/JCollado-Portfolio/images/publichealth/EssentialEpidemiologicToolsforPublicHealthJohnsHopkins.pdf" },
+                { name: "Health Communication", pdfPath: "/JCollado-Portfolio/images/publichealth/healthcommunication.pdf" },
+                { name: "Outbreaks and Epidemics", pdfPath: "/JCollado-Portfolio/images/publichealth/OutbreaksandEpidemicsJonhsHopkins.pdf" },
+                { name: "Public Health 101", pdfPath: "/JCollado-Portfolio/images/publichealth/public-health-101.pdf" },
+                { name: "Surveillance Systems: Analysis, Dissemination, and Special Systems", pdfPath: "/JCollado-Portfolio/images/publichealth/SurveillancesystemsAnalysisdisseminationandspecialsystems.pdf" },
+                { name: "Surveillance Systems: The Building Blocks", pdfPath: "/JCollado-Portfolio/images/publichealth/SurveillanceSystemsThebuildingBlocksJohnsHopkins.pdf" }
               ]}
             />
             <CertificateCard 
               title="Life Sciences"
               issuer=""
               date="Genetics, Genomics, NGS"
-              image="images/lifescience.jpg"
+              image="/JCollado-Portfolio/images/lifescience.jpg"
               certificates={[
-                { name: "Genomic Data Science with Galaxy", pdfPath: "images/lifesciences/JohnHopkinsGenomicDataSciencewithGalaxy.pdf" },
-                { name: "Introduction to Genomic Technologies", pdfPath: "images/lifesciences/JohnHopkinsIntroductiontoGenomicTechnologies.pdf" }
+                { name: "Genomic Data Science with Galaxy", pdfPath: "/JCollado-Portfolio/images/lifesciences/JohnHopkinsGenomicDataSciencewithGalaxy.pdf" },
+                { name: "Introduction to Genomic Technologies", pdfPath: "/JCollado-Portfolio/images/lifesciences/JohnHopkinsIntroductiontoGenomicTechnologies.pdf" }
               ]}
             />
           </div>
