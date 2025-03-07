@@ -69,7 +69,7 @@ function App() {
             </a>
           </div>
           <a 
-            href="/JCollado-Portfolio/images/JavierColladoCV.pdf" 
+            href="https://jcollado-data.github.io/JCollado-Portfolio/images/JavierColladoCV.pdf" 
             download= "JavierColladoCV.pdf"
             target="_blank"
             rel="noopener noreferrer"
