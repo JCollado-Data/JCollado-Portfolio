@@ -277,11 +277,11 @@ function App() {
               title="Degrees and Post Graduate Work"
               issuer=""
               date="Bachelor of Science & Post Grad Certificate"
-              image="https://jcollado-data.github.io/JCollado-Portfolio//images/diploma.jpg"
+              image="https://jcollado-data.github.io/JCollado-Portfolio/images/diploma.jpg"
               certificates={[
                 { name: "Associate of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/Asdiploma.pdf" },
-                { name: "Bachelor of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/degree/Bachelor_Degree.pdf" },
-                { name: "Post Graduate Certificate", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/degree/UCSD_DataScienceCert.pdf" }
+                { name: "Bachelor of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/Bachelor_Degree.pdf" },
+                { name: "Post Graduate Certificate", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/UCSD_DataScienceCert.pdf" }
               ]}
             />
             <CertificateCard 
