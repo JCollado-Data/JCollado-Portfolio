@@ -69,7 +69,7 @@ function App() {
             </a>
           </div>
           <a 
-            href="public/images/JavierColladoCV.pdf" 
+            href="/JCollado-Portfolio/images/JavierColladoCV.pdf" 
             download= "JavierColladoCV.pdf"
             target="_blank"
             rel="noopener noreferrer"
