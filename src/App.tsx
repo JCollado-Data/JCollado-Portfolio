@@ -279,7 +279,7 @@ function App() {
               date="Bachelor of Science & Post Grad Certificate"
               image="https://jcollado-data.github.io/JCollado-Portfolio/images/diploma.jpg"
               certificates={[
-                { name: "Associate of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/Asdiploma.pdf" },
+                { name: "Associate of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/ASdiploma.pdf" },
                 { name: "Bachelor of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/Bachelor_Degree.pdf" },
                 { name: "Post Graduate Certificate", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/UCSD_DataScienceCert.pdf" }
               ]}
@@ -288,62 +288,62 @@ function App() {
               title="Data Management"
               issuer=""
               date="SQL, Cloud"
-              image="/JCollado-Portfolio/public/images/datamanagement.jpg"
+              image="https://jcollado-data.github.io/JCollado-Portfolio/images/datamanagement.jpg"
               certificates={[
-                { name: "Oracle Certified Foundations Associate", pdfPath: "/JCollado-Portfolio/public/images/datamanagement/OCIFoundationCertificate.pdf" },
-                { name: "SQL for Data Science", pdfPath: "/JCollado-Portfolio/public/images/datamanagement/UCDavisSQL.pdf" }
+                { name: "Oracle Certified Foundations Associate", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/datamanagement/OCIFoundationCertificate.pdf" },
+                { name: "SQL for Data Science", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/datamanagement/UCDavisSQL.pdf" }
               ]}
             />
             <CertificateCard 
               title="Data Analytics"
               issuer=""
               date="Data Analytics, Data visulization, Statistics"
-              image="/JCollado-Portfolio/public/images/dataanalytics.jpg"
+              image="https://jcollado-data.github.io/JCollado-Portfolio/images/dataanalytics.jpg"
               certificates={[
-                { name: "Google Data Analytics", pdfPath: "/JCollado-Portfolio/public/images/dataanalytics/GoogleDataAnalytics.pdf" },
-                { name: "Data Visualization with Tableau", pdfPath: "/JCollado-Portfolio/public/images/dataanalytics/UCDavisFullDataVisualizationwithTableau.pdf" },
-                { name: "Creating Dashboards and Storytelling with Tableau", pdfPath: "/JCollado-Portfolio/public/images/dataanalytics/UCDavisCreatingDashboardsandStorytellingwithTableau.pdf" },
-                { name: "Essential Design Principles for Tableau", pdfPath: "/JCollado-Portfolio/public/images/dataanalytics/UCDavisEsstentialDesignPrinciplesforTableau.pdf" },
-                { name: "Fundamentals of Visualization with Tableau", pdfPath: "/JCollado-Portfolio/public/images/dataanalytics/UCDavisFundamentalsofVisualizationwithTableau.pdf" },
-                { name: "Visual Analytics with Tableau", pdfPath: "/JCollado-Portfolio/public/images/dataanalytics/UCDavisVisualAnalyticsWithTableau.pdf" }
+                { name: "Google Data Analytics", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/dataanalytics/GoogleDataAnalytics.pdf" },
+                { name: "Data Visualization with Tableau", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/dataanalytics/UCDavisFullDataVisualizationwithTableau.pdf" },
+                { name: "Creating Dashboards and Storytelling with Tableau", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/dataanalytics/UCDavisCreatingDashboardsandStorytellingwithTableau.pdf" },
+                { name: "Essential Design Principles for Tableau", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/dataanalytics/UCDavisEsstentialDesignPrinciplesforTableau.pdf" },
+                { name: "Fundamentals of Visualization with Tableau", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/dataanalytics/UCDavisFundamentalsofVisualizationwithTableau.pdf" },
+                { name: "Visual Analytics with Tableau", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/dataanalytics/UCDavisVisualAnalyticsWithTableau.pdf" }
               ]}
             />
             <CertificateCard 
               title="Machine Learning"
               issuer=""
               date="Cloud, Big Data, Data Modeling"
-              image="/JCollado-Portfolio/public/images/machinelearning.jpg"
+              image="https://jcollado-data.github.io/JCollado-Portfolio/images/machinelearning.jpg"
               certificates={[
-                { name: "Google CLoud and Big Data and Machine Learning Fundamentals", pdfPath: "/JCollado-Portfolio/public/images/machinelearning/GoogleCloudBigDataandMachineLearningFundamentals.pdf" },
-                { name: "Fundamentals of Quantitative Modeling", pdfPath: "/JCollado-Portfolio/public/images/machinelearning/StanfordSupervisedMachineLearning_RegressionandClassification.pdf" },
-                { name: "Supervised Machine Learning: Regression and Classification", pdfPath: "/JCollado-Portfolio/public/images/machinelearning/UPennFundamentalsofQuantitativeModeling.pdf" }
+                { name: "Google CLoud and Big Data and Machine Learning Fundamentals", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/machinelearning/GoogleCloudBigDataandMachineLearningFundamentals.pdf" },
+                { name: "Fundamentals of Quantitative Modeling", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/machinelearning/StanfordSupervisedMachineLearning_RegressionandClassification.pdf" },
+                { name: "Supervised Machine Learning: Regression and Classification", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/machinelearning/UPennFundamentalsofQuantitativeModeling.pdf" }
               ]}
             />
             <CertificateCard  
               title="Public Health"
               issuer=""
               date="Epidemology, FEMA, WHO"
-              image="/JCollado-Portfolio/public/images/publichealth.jpg"
+              image="https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth.jpg"
               certificates={[
-                { name: "Infection Prevention and Control for Novel Coronavirus", pdfPath: "/JCollado-Portfolio/public/images/publichealth/COVID-19-IPC-EN_ConfirmationOfParticipation.pdf" },
-                { name: "Data and Health Indicators in Public Health Practice", pdfPath: "/JCollado-Portfolio/public/images/publichealth/DataandHealthIndicatorsinPublicHealthPracticeJohnsHopkins.pdf" },
-                { name: "Epidemiology in Public Health Practice", pdfPath: "/JCollado-Portfolio/public/images/publichealth/EpidemiologyinPublicHealthPracticeJohnsHopkins.pdf" },
-                { name: "Essential Epidemiologic Tools for Public Health Practice", pdfPath: "/JCollado-Portfolio/public/images/publichealth/EssentialEpidemiologicToolsforPublicHealthJohnsHopkins.pdf" },
-                { name: "Health Communication", pdfPath: "/JCollado-Portfolio/public/images/publichealth/healthcommunication.pdf" },
-                { name: "Outbreaks and Epidemics", pdfPath: "/JCollado-Portfolio/public/images/publichealth/OutbreaksandEpidemicsJonhsHopkins.pdf" },
-                { name: "Public Health 101", pdfPath: "/JCollado-Portfolio/public/images/publichealth/public-health-101.pdf" },
-                { name: "Surveillance Systems: Analysis, Dissemination, and Special Systems", pdfPath: "/JCollado-Portfolio/public/images/publichealth/SurveillancesystemsAnalysisdisseminationandspecialsystems.pdf" },
-                { name: "Surveillance Systems: The Building Blocks", pdfPath: "/JCollado-Portfolio/public/images/publichealth/SurveillanceSystemsThebuildingBlocksJohnsHopkins.pdf" }
+                { name: "Infection Prevention and Control for Novel Coronavirus", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/COVID-19-IPC-EN_ConfirmationOfParticipation.pdf" },
+                { name: "Data and Health Indicators in Public Health Practice", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/DataandHealthIndicatorsinPublicHealthPracticeJohnsHopkins.pdf" },
+                { name: "Epidemiology in Public Health Practice", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/EpidemiologyinPublicHealthPracticeJohnsHopkins.pdf" },
+                { name: "Essential Epidemiologic Tools for Public Health Practice", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/EssentialEpidemiologicToolsforPublicHealthJohnsHopkins.pdf" },
+                { name: "Health Communication", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/healthcommunication.pdf" },
+                { name: "Outbreaks and Epidemics", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/OutbreaksandEpidemicsJonhsHopkins.pdf" },
+                { name: "Public Health 101", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/public-health-101.pdf" },
+                { name: "Surveillance Systems: Analysis, Dissemination, and Special Systems", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/SurveillancesystemsAnalysisdisseminationandspecialsystems.pdf" },
+                { name: "Surveillance Systems: The Building Blocks", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/publichealth/SurveillanceSystemsThebuildingBlocksJohnsHopkins.pdf" }
               ]}
             />
             <CertificateCard 
               title="Life Sciences"
               issuer=""
               date="Genetics, Genomics, NGS"
-              image="/JCollado-Portfolio/public/images/lifescience.jpg"
+              image="https://jcollado-data.github.io/JCollado-Portfolio/images/lifescience.jpg"
               certificates={[
-                { name: "Genomic Data Science with Galaxy", pdfPath: "/JCollado-Portfolio/public/images/lifesciences/JohnHopkinsGenomicDataSciencewithGalaxy.pdf" },
-                { name: "Introduction to Genomic Technologies", pdfPath: "/JCollado-Portfolio/public/images/lifesciences/JohnHopkinsIntroductiontoGenomicTechnologies.pdf" }
+                { name: "Genomic Data Science with Galaxy", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/lifesciences/JohnHopkinsGenomicDataSciencewithGalaxy.pdf" },
+                { name: "Introduction to Genomic Technologies", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/lifesciences/JohnHopkinsIntroductiontoGenomicTechnologies.pdf" }
               ]}
             />
           </div>
