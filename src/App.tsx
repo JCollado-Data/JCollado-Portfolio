@@ -280,7 +280,7 @@ function App() {
               image="https://jcollado-data.github.io/JCollado-Portfolio/images/diploma.jpg"
               certificates={[
                 { name: "Associate of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/ASdiploma.pdf" },
-                { name: "Bachelor of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/BSDegree.pdf" },
+                { name: "Bachelor of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/BSdegree.pdf" },
                 { name: "Post Graduate Certificate", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/UCSD_DataScienceCert.pdf" }
               ]}
             />
