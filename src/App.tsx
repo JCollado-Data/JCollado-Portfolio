@@ -280,7 +280,7 @@ function App() {
               image="https://jcollado-data.github.io/JCollado-Portfolio/images/diploma.jpg"
               certificates={[
                 { name: "Associate of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/ASdiploma.pdf" },
-                { name: "Bachelor of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/Bachelor_Degree.pdf" },
+                { name: "Bachelor of Science Degree", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/BSDegree.pdf" },
                 { name: "Post Graduate Certificate", pdfPath: "https://jcollado-data.github.io/JCollado-Portfolio/images/degree/UCSD_DataScienceCert.pdf" }
               ]}
             />
@@ -382,8 +382,12 @@ function App() {
               tags={['Pandas', 'TensorFlow', 'SciKit Learn', 'Jupyter Notebook']}
               projectDetails={{
                 overview: "Built a deep learning model for predicting successful funding applications...",
-                challenges: ["Feature selection", "Optimizing deep learning parameters"],
-                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                key1: "AAAAA",
+                key2:"BBBBB",
+                key3: "CCCCC",
+                frontend: ['N/A'],
+                backend: ["Pandas", "TensorFlow", "SciKit Learn", "Jupyter Notebook"], 
+                deployment: ["GitHub"],
                 team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
                 link: "https://github.com/example/repo"
               }}
@@ -395,8 +399,12 @@ function App() {
               tags={['Prophet', 'Pandas', 'Plotly', 'LSTM']}
               projectDetails={{
                 overview: "Built a deep learning model for predicting successful funding applications...",
-                challenges: ["Feature selection", "Optimizing deep learning parameters"],
-                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                key1: "AAAAA",
+                key2:"BBBBB",
+                key3: "CCCCC",
+                frontend: ['N/A'],
+                backend: ["Python", "Pandas"], 
+                deployment: ["GitHub"],
                 team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
                 link: "https://github.com/example/repo"
               }}
@@ -409,8 +417,12 @@ function App() {
               tags={['PyTorch', 'OpenCV', 'CUDA', 'YOLOv5']}
               projectDetails={{
                 overview: "Built a deep learning model for predicting successful funding applications...",
-                challenges: ["Feature selection", "Optimizing deep learning parameters"],
-                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                key1: "AAAAA",
+                key2:"BBBBB",
+                key3: "CCCCC",
+                frontend: ['N/A'],
+                backend: ["Python", "Pandas"], 
+                deployment: ["GitHub"],
                 team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
                 link: "https://github.com/example/repo"
               }}
@@ -423,8 +435,12 @@ function App() {
               tags={['Spark', 'scikit-learn', 'Redis', 'FastAPI']}
               projectDetails={{
                 overview: "Built a deep learning model for predicting successful funding applications...",
-                challenges: ["Feature selection", "Optimizing deep learning parameters"],
-                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                key1: "AAAAA",
+                key2:"BBBBB",
+                key3: "CCCCC",
+                frontend: ['N/A'],
+                backend: ["Python", "Pandas"], 
+                deployment: ["GitHub"],
                 team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
                 link: "https://github.com/example/repo"
               }}
@@ -437,8 +453,12 @@ function App() {
               tags={['Isolation Forest', 'Kafka', 'ELK Stack']}
               projectDetails={{
                 overview: "Built a deep learning model for predicting successful funding applications...",
-                challenges: ["Feature selection", "Optimizing deep learning parameters"],
-                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                key1: "AAAAA",
+                key2:"BBBBB",
+                key3: "CCCCC",
+                frontend: ['N/A'],
+                backend: ["Python", "Pandas"], 
+                deployment: ["GitHub"],
                 team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
                 link: "https://github.com/example/repo"
               }}
@@ -580,7 +600,7 @@ function CertificateCard({ title, issuer, date, image, certificates }) {
       {/* Certificate Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4 overflow-y-auto">
-          <div className="relative w-full max-w-4xl bg-white rounded-lg shadow-2xl">
+          <div className="relative w-full max-w-3xl sm:max-w-4xl bg-white rounded-lg shadow-2xl">
             {/* Modal Header */}
             <div className="flex items-center justify-between p-4 border-b">
               <div>
