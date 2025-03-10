@@ -363,42 +363,86 @@ function App() {
               description="Evaluating different crieteria to determine Credit Risk utilizing multiple models."
               image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
               tags={['Python', 'Jupyter Notebook', 'Pandas', 'Numpy']}
-              link="#"
+              projectDetails={{
+                overview: "This project showcases the implementation of advanced machine learning techniques to solve real-world problems. While comparing different models I have Identified the AdaBoost Classifier as the most optimal for this dataset.",
+                key1: "AAAAA",
+                key2:"BBBBB",
+                key3: "CCCCC",
+                frontend: ['N/A'],
+                backend: ["Python", "Pandas"], 
+                deployment: ["GitHub"],
+                team: { size: 1, roles: ["Data Scientist"] },
+                link: "https://github.com/JCollado-Data/Credit_Risk_Analysis"
+              }}
             />
             <ProjectCard 
               title="Neural Network Models"
               description="The purpose of this project is to analysis the AlphabetSoupCharity 'ASC' and determine which fund applicants will be successful and be best suited for ASC funds."
               image="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&q=80&w=800"
               tags={['Pandas', 'TensorFlow', 'SciKit Learn', 'Jupyter Notebook']}
-              link="#"
+              projectDetails={{
+                overview: "Built a deep learning model for predicting successful funding applications...",
+                challenges: ["Feature selection", "Optimizing deep learning parameters"],
+                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
+                link: "https://github.com/example/repo"
+              }}
             />
             <ProjectCard 
               title="Time Series Forecasting"
               description="Created an ensemble forecasting model for retail sales prediction, combining Prophet, LSTM, and traditional statistical methods for 30% improved accuracy."
               image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
               tags={['Prophet', 'Pandas', 'Plotly', 'LSTM']}
-              link="#"
+              projectDetails={{
+                overview: "Built a deep learning model for predicting successful funding applications...",
+                challenges: ["Feature selection", "Optimizing deep learning parameters"],
+                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
+                link: "https://github.com/example/repo"
+              }}
+
             />
             <ProjectCard 
               title="Computer Vision Pipeline"
               description="Implemented a real-time object detection system for manufacturing quality control, reducing defect escape rate by 75% using YOLOv5 and custom post-processing."
               image="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800"
               tags={['PyTorch', 'OpenCV', 'CUDA', 'YOLOv5']}
-              link="#"
+              projectDetails={{
+                overview: "Built a deep learning model for predicting successful funding applications...",
+                challenges: ["Feature selection", "Optimizing deep learning parameters"],
+                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
+                link: "https://github.com/example/repo"
+              }}
+
             />
             <ProjectCard 
               title="Recommendation Engine"
               description="Built a hybrid recommendation system combining collaborative filtering and content-based approaches, increasing user engagement by 28% and conversion by 15%."
               image="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&q=80&w=800"
               tags={['Spark', 'scikit-learn', 'Redis', 'FastAPI']}
-              link="#"
+              projectDetails={{
+                overview: "Built a deep learning model for predicting successful funding applications...",
+                challenges: ["Feature selection", "Optimizing deep learning parameters"],
+                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
+                link: "https://github.com/example/repo"
+              }}
+
             />
             <ProjectCard 
               title="Anomaly Detection System"
               description="Developed an unsupervised anomaly detection system for network security, identifying previously unknown attack patterns with 96% precision."
               image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
               tags={['Isolation Forest', 'Kafka', 'ELK Stack']}
-              link="#"
+              projectDetails={{
+                overview: "Built a deep learning model for predicting successful funding applications...",
+                challenges: ["Feature selection", "Optimizing deep learning parameters"],
+                technologies: { backend: ["TensorFlow", "Keras"], deployment: ["AWS"] },
+                team: { size: 2, roles: ["ML Engineer", "Data Scientist"] },
+                link: "https://github.com/example/repo"
+              }}
+
             />
           </div>
         </div>
@@ -574,53 +618,23 @@ function CertificateCard({ title, issuer, date, image, certificates }) {
   );
 }
 
-function ProjectCard({ title, description, image, tags, link }) {
+function ProjectCard({ title, description, image, tags, projectDetails }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const projectDetails = {
-    overview: "This project showcases the implementation of advanced machine learning techniques to solve real-world problems. While comparing different models I have Identified the AdaBoost Classifier as the most optimal for this dataset.",
-    challenges: [
-      "Handling large-scale data processing efficiently",
-      "Implementing real-time prediction capabilities",
-      "Optimizing model performance for production",
-    ],
-    technologies: {
-      frontend: ["N/A"],
-      backend: ["Python", "Juypter Notebook", "Pandas"],
-      deployment: ["Github"],
-    },
-    metrics: [
-      { label: "Balance Accuracy Score", value: "0.93166" },
-      { label: "Percision Score", value: "0.99" },
-      { label: "Recall Score", value: "0.94" },
-    ],
-    team: {
-      size: 1,
-      roles: ["Data Scientist"],
-    },
-    repoUrl: "https://github.com/JCollado-Data/Credit_Risk_Analysis",
-  };
 
   return (
     <>
+      {/* Project Card */}
       <div 
         onClick={() => setIsModalOpen(true)}
         className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow cursor-pointer"
       >
         <img src={image} alt={title} className="w-full h-48 object-cover" />
         <div className="p-6">
-          <h3 className="text-xl font-semibold mb-2 text-gray-800">
-            {title}
-          </h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">{title}</h3>
           <p className="text-gray-600 mb-4">{description}</p>
           <div className="flex flex-wrap gap-2">
-            {tags.map((tag, index) => (
-              <span 
-                key={index}
-                className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm"
-              >
-                {tag}
-              </span>
+            {tags.map((tag) => (
+              <span key={tag} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">{tag}</span>
             ))}
           </div>
         </div>
@@ -628,129 +642,83 @@ function ProjectCard({ title, description, image, tags, link }) {
 
       {/* Project Modal */}
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4 overflow-y-auto">
-          <div className="relative w-full max-w-4xl bg-white rounded-lg shadow-2xl my-8">
+        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4">
+          <div className="relative w-full max-w-4xl bg-white rounded-lg shadow-2xl my-8 p-6">
             {/* Modal Header */}
-            <div className="flex items-center justify-between p-6 border-b">
-              <div>
-                <h3 className="text-2xl font-semibold text-gray-800">{title}</h3>
-                <div className="flex items-center gap-4 mt-2">
-                  {projectDetails.demoUrl && (
-                    <a 
-                      href={projectDetails.demoUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-700 text-sm font-medium"
-                    >
-                      <Play className="w-4 h-4" />
-                      Live Demo
-                    </a>
-                  )}
-                  {projectDetails.repoUrl && (
-                    <a 
-                      href={projectDetails.repoUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-700 text-sm font-medium"
-                    >
-                      <GitBranch className="w-4 h-4" />
-                      View Code
-                    </a>
-                  )}
-                </div>
-              </div>
+            <div className="flex items-center justify-between pb-4 border-b sticky top-0 bg-white z-10">
+              <h3 className="text-2xl font-semibold text-gray-800">{title}</h3>
               <button 
                 onClick={() => setIsModalOpen(false)}
-                className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+                className="absolute top-0.5 right-0.5 p-0.5 hover:bg-gray-100 rounded-full transition-colors md:self-end"
                 aria-label="Close modal"
               >
-                <X className="w-5 h-5 text-gray-500" />
+                <X className="w-6 h-6 text-gray-500" />
               </button>
             </div>
-            
+
             {/* Modal Content */}
             <div className="p-6 space-y-6">
-              {/* Project Image */}
-              <div className="relative aspect-video w-full">
-                <img 
-                  src={image} 
-                  alt={title} 
-                  className="w-full h-full object-cover rounded-lg"
-                />
-              </div>
+              <img src={image} alt={title} className="w-full h-64 object-cover rounded-lg" />
               
               {/* Project Overview */}
-              <div>
-                <h4 className="text-lg font-semibold text-gray-800 mb-2">Project Overview</h4>
+              <div className="mt-4">
+                <h4 className="text-lg font-semibold text-gray-800">Project Overview:</h4>
                 <p className="text-gray-600">{projectDetails.overview}</p>
               </div>
 
-              {/* Key Metrics */}
-              <div className="grid grid-cols-3 gap-4">
-                {projectDetails.metrics.map((metric, index) => (
-                  <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                    <div className="text-2xl font-bold text-blue-600">{metric.value}</div>
-                    <div className="text-sm text-gray-600">{metric.label}</div>
-                  </div>
-                ))}
-              </div>
-
-              {/* Challenges & Solutions */}
-              <div>
-                <h4 className="text-lg font-semibold text-gray-800 mb-2">Key Challenges</h4>
+              {/* Project Take aways */}
+              <div className="mt-4">
+                <h4 className="text-lg font-semibold text-gray-800">Key Take-Aways:</h4>
                 <ul className="list-disc list-inside space-y-2">
-                  {projectDetails.challenges.map((challenge, index) => (
-                    <li key={index} className="text-gray-600">{challenge}</li>
-                  ))}
+                  <li className="text-greay-600">{projectDetails.key1}</li>
+                  <li className="text-greay-600">{projectDetails.key2}</li>
+                  <li className="text-greay-600">{projectDetails.key3}</li>
                 </ul>
               </div>
 
-              {/* Technology Stack */}
+              {/* Technologies Used */}
               <div>
-                <h4 className="text-lg font-semibold text-gray-800 mb-2">Technology Stack</h4>
-                <div className="grid grid-cols-3 gap-4">
+                <h4 className="text-lg font-semibold text-gray-800">Technology Stack:</h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                   <div>
                     <h5 className="font-medium text-gray-700 mb-2">Frontend</h5>
                     <div className="flex flex-wrap gap-2">
-                      {projectDetails.technologies.frontend.map((tech, index) => (
-                        <span key={index} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">
-                          {tech}
-                        </span>
+                      {projectDetails.frontend && projectDetails.frontend.map((tech, index) => (
+                        <span key={index} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">{tech}</span>
                       ))}
                     </div>
                   </div>
+
                   <div>
                     <h5 className="font-medium text-gray-700 mb-2">Backend</h5>
                     <div className="flex flex-wrap gap-2">
-                      {projectDetails.technologies.backend.map((tech, index) => (
-                        <span key={index} className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-sm">
-                          {tech}
-                        </span>
+                      {projectDetails.backend && projectDetails.backend.map((tech, index) => (
+                        <span key={index} className="px-3 py-1 bg-blue-50 text-green-600 rounded-full text-sm">{tech}</span>
                       ))}
                     </div>
                   </div>
+
                   <div>
                     <h5 className="font-medium text-gray-700 mb-2">Deployment</h5>
                     <div className="flex flex-wrap gap-2">
-                      {projectDetails.technologies.deployment.map((tech, index) => (
-                        <span key={index} className="px-3 py-1 bg-purple-50 text-purple-600 rounded-full text-sm">
-                          {tech}
-                        </span>
+                      {projectDetails.deployment && projectDetails.deployment.map((tech, index) => (
+                        <span key={index} className="px-3 py-1 bg-blue-50 text-purple-600 rounded-full text-sm">{tech}</span>
                       ))}
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Team */}
-              <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
-                <Users className="w-6 h-6 text-gray-600" />
-                <div>
-                  <div className="font-medium text-gray-800">Team Size: {projectDetails.team.size}</div>
-                  <div className="text-sm text-gray-600">
-                    Roles: {projectDetails.team.roles.join(", ")}
-                  </div>
-                </div>
+              {/* GitHub Link */}
+              <div className="mt-6">
+                <a 
+                  href={projectDetails.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-block px-4 py-2 bg-gray-800 text-white font-semibold rounded-lg hover:bg-green-600 transition"
+                >
+                <Github />
+                </a>
               </div>
             </div>
           </div>
