@@ -38,8 +38,8 @@ function App() {
           <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-2">
             Javier Collado
           </h1>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-600 mb-6">
-            Data Scientist/Data Engineer/ML Engineer
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-600 mb-6">
+            Bring the Science back to Data Science
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Transforming complex data into actionable insights and building intelligent solutions
@@ -73,13 +73,16 @@ function App() {
             download= "JavierColladoCV.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-300 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
           >
             <FileDown className="w-5 h-5" />
             Download Resume
           </a>
         </div>
-        <ChevronDown className="w-6 h-6 absolute bottom-8 animate-bounce text-gray-600" />
+        <div className="absolute bottom-12 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+        <p className="text-blue-600 text-sm font-medium"> Scroll down for more</p>
+        <ChevronDown className="w-8 h-8 absolute bottom-8 animate-bounce text-blue-600" />
+        </div>
       </header>
 
       {/* Skills Section */}
