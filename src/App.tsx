@@ -39,7 +39,7 @@ function App() {
             Javier Collado
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-600 mb-6">
-            Bring the Science back to Data Science
+            Bringing the Science back to Data Science
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Transforming complex data into actionable insights and building intelligent solutions
